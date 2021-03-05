@@ -158,14 +158,14 @@ body, html {
     }
 }
 
-.respect {
+.respect, .care {
     /* background: linear-gradient(#123d44, #103a4100); */
     position: relative;
     top: -22px;
     width: 70vw;
 }
 
-.respect h1 {
+.respect h1, .care h1 {
     position: relative;
     top: 50px;
     left: 10%;
@@ -173,7 +173,7 @@ body, html {
     font-family: 'Charm', cursive;
 }
 
-.respect h3 {
+.respect h3, .care h3 {
     position: relative;
     top: 10px;
     left: 10%;
@@ -213,11 +213,18 @@ body, html {
 
 
 @media screen and (min-width: 600px) {
-    .respect h1 {
+    .respect h1, .care h1 {
         font-size: 2.5em;
     }
     .respect h3 {
         left: 25%;
+    }
+
+    .care h1 {
+        left: 20%;
+    }
+    .care h3 {
+        left: 38%;
     }
 
     .partnerbox {
