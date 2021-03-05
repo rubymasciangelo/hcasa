@@ -163,12 +163,13 @@ body, html {
     top: 50px;
     left: 10%;
     color: #106d7c;
+    font-family: 'Charm', cursive;
 }
 
 .respect h3 {
     position: relative;
-    top: 45px;
-    left: 15%;
+    top: 10px;
+    left: 10%;
     color: #258999;
 }
 
@@ -202,6 +203,13 @@ body, html {
 
 
 @media screen and (min-width: 600px) {
+    .respect h1 {
+        font-size: 2.5em;
+    }
+    .respect h3 {
+        left: 25%;
+    }
+
     .partnerbox {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
