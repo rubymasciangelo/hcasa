@@ -70,3 +70,21 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+
+  .paubox {
+      display: none;
+  }
+
+  @media screen and (min-width: 600px) {
+      .paubox {
+          display: block;
+          position: absolute;
+          z-index: 10;
+          top: 10px;
+          left: -10px;
+      }
+
+      .pau {
+          width: 20vw;
+      }
+  }
