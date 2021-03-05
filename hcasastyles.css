@@ -164,7 +164,7 @@ body, html {
     color: #106d7c;
 }
 
-.respect h2 {
+.respect h3 {
     position: relative;
     top: 45px;
     left: 15%;
@@ -177,7 +177,7 @@ body, html {
     text-align: center;
 }
 
-.partners h3 {
+.partners h2 {
     margin-bottom: 50px;
     color: #106d7c;
 }
