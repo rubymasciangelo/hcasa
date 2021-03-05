@@ -245,17 +245,10 @@ body, html {
 @media screen and (min-width: 600px) {
     .paubox {
         display: block;
-        top: -50px;
-        left: -45px;
-        position: relative;
-        /* position: absolute;
+        position: absolute;
         z-index: 10;
         top: 10px;
-        left: -35px; */
-    }
-
-    .paubox img {
-        transform: rotate(10deg);
+        left: -35px;
     }
 
     .pau {
