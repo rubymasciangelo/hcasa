@@ -85,6 +85,10 @@ body, html {
     position: relative;
     z-index: 0;
   }
+
+  .herotag {
+      display: none;
+  }
   
   .herotext {
     text-align: center;
@@ -96,7 +100,7 @@ body, html {
   }
 
   .logobox img {
-      width: 45vw;
+      width: 40vw;
   }
 
   .herotext p {
@@ -106,7 +110,7 @@ body, html {
 
   .herotext {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 60vw;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -122,6 +126,16 @@ body, html {
         width: 25vw;
     }
 
+    .herotag {
+        display: block;
+        text-align: right;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        color: #707274;
+        width: 40vw;
+    }
+
     .herotext {
         text-align: left;
         top: 50%;
@@ -135,7 +149,7 @@ body, html {
         }
         
         .logobox { grid-area: 1 / 1 / 2 / 2; }
-        .herotext p { grid-area: 1 / 2 / 2 / 3; 
+        .herotext p { display: none; grid-area: 1 / 2 / 2 / 3; 
     }
 }
 
