@@ -8,8 +8,14 @@ body, html {
 
 .navbar {
   overflow: hidden;
-  background-color: #258999;
+  /* background-color: #258999; */
+  background-color: #309eaf;
+
 }
+
+/* .aboutnav {
+    background-color: #309eaf;
+} */
 
 .navbar a {
   float: right;
@@ -22,7 +28,8 @@ body, html {
 }
 
 .navbar a:hover {
-  color: rgb(250, 247, 242);
+  /* color: rgb(250, 247, 242); */
+  color: #707274;
 }
 
 
