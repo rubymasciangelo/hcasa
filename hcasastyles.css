@@ -263,6 +263,45 @@ body, html {
     color: #106d7c;
 }
 
+.aloha {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+    
+    .laloha { grid-area: 1 / 1 / 2 / 2; }
+    .raloha { grid-area: 1 / 2 / 2 / 3; }
+
+    .laloha {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        }
+        
+        .laloha1 { grid-area: 1 / 1 / 2 / 2; }
+        .laloha2 { grid-area: 2 / 1 / 3 / 2; }
+        .laloha3 { grid-area: 3 / 1 / 4 / 2; }
+        .laloha4 { grid-area: 4 / 1 / 5 / 2; }
+        .laloha5 { grid-area: 5 / 1 / 6 / 2; }
+
+        .raloha {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 50px;
+            grid-row-gap: 0px;
+            }
+            
+            .raloha1 { grid-area: 1 / 1 / 2 / 2; }
+            .raloha2 { grid-area: 2 / 1 / 3 / 2; }
+            .raloha3 { grid-area: 3 / 1 / 4 / 2; }
+            .raloha4 { grid-area: 4 / 1 / 5 / 2; }
+            .raloha5 { grid-area: 5 / 1 / 6 / 2; }
+
 @media screen and (min-width: 600px) {
     .paubox {
         display: block;
@@ -279,6 +318,11 @@ body, html {
     .about {
         width: 70vw;
         margin-left: 20vw;
+    }
+
+    .aloha {
+        width: 60vw;
+        margin-left: 5vw;
     }
 }
 
