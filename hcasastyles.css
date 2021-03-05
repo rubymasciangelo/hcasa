@@ -161,13 +161,49 @@ body, html {
     position: relative;
     top: 50px;
     left: 10%;
+    color: #106d7c;
 }
 
 .respect h2 {
     position: relative;
     top: 45px;
     left: 15%;
+    color: #258999;
 }
+
+.partners {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.partners h3 {
+    margin-bottom: 50px;
+    color: #106d7c;
+}
+
+.partnerbox img {
+    width: 20vw;
+}
+
+.partnerbox p {
+    padding-bottom: 60px;
+}
+
+.partnerbox a {
+    text-decoration: none;
+    color: #106d7c;
+}
+
+.partnerlink {
+    text-decoration: underline;
+}
+
+
+
+
+
+
 
   .paubox {
     display: none;
