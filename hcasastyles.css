@@ -1,4 +1,3 @@
-/* last commit of draft one */
 
 body, html {
     height: 100%;
@@ -203,19 +202,36 @@ body, html {
 
 .partnerbox img {
     width: 20vw;
+    padding-top: 20px;
 }
 
 .partnerbox p {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .partnerbox a {
     text-decoration: none;
-    color: #106d7c;
+    color: #464747;
+    width: 20vw;
+    margin-bottom: 100px;
+    border-radius: 10%;
 }
 
 .partnerlink {
     text-decoration: underline;
+}
+
+.kauai {
+    background-color: #7cb8c2;
+}
+.oahu {
+    background-color: #51a1ad;
+}
+.maui {
+    background-color: #248999;
+}
+.bi {
+    background-color: #1e6e7a;
 }
 
 
