@@ -21,7 +21,7 @@ body, html {
 .navlogo {
     width: auto;
     height: 51px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 10px;
 }
 
@@ -95,8 +95,10 @@ body, html {
 
   .heroimg {
     /* background-image: linear-gradient(#123d44e0, #103a41e8), url("img/kalopatch1.jpg"); */
-    background-image: linear-gradient(#ffffff7e, #ffffff80), url("img/kalopatch1.jpg");
+    /* background-image: linear-gradient(#ffffff00, #ffffffc7), url("img/kalopatch1.jpg"); */
     /* background-image: linear-gradient(#62e1f5c9, #3fdaf5c4), url("img/kalopatch1.jpg"); */
+    background-image: url("img/kalopatch1.jpg");
+
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,35 +106,53 @@ body, html {
     position: relative;
     z-index: 0;
   }
-
-  .herotag {
-      display: none;
-  }
   
   .herotext {
     text-align: center;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #707274;
-  }
-
-  .logobox img {
-      width: 40vw;
+    background: linear-gradient(#ffffff4f, #ffffffe1);
+    padding: 10px;
+    border-radius: 1%;
   }
 
   .herotext {
     display: grid;
-    grid-template-columns: 60vw;
+    grid-template-columns: 80vw;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
     
-    .logobox { grid-area: 1 / 1 / 2 / 2; }
+    .respectbox { grid-area: 1 / 1 / 2 / 2; }
     .pbox { grid-area: 2 / 1 / 3 / 2; 
-    font-size: 0.9em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #106d7c;
+    margin: 0px;
+}
+
+
+.respect h1{
+    color: #106d7c;
+    font-family: 'Charm', cursive;
+    font-size: 40px;
+    margin: 0px;
+    text-align: left;
+}
+.respect h3 {
+    color: #258999;
+    font-size: 25px;
+    margin: 0px;
+    text-align: right;
+}
+
+.heroaloha {
+    color: #106d7c;
+    font-size: 20px;
+    margin: 0px;
 }
 
 @media screen and (min-width: 600px) {
@@ -143,20 +163,6 @@ body, html {
         padding-left: 10px;
     }
 
-    .logobox img {
-        width: 25vw;
-    }
-
-    .herotag {
-        display: block;
-        text-align: right;
-        position: absolute;
-        top: 5%;
-        right: 5%;
-        color: #7a7c80;
-        width: 40vw;
-        font-size: 1.3em;
-    }
 
     .herotext {
         text-align: left;
@@ -169,13 +175,10 @@ body, html {
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
         }
-        
-        .logobox { grid-area: 1 / 1 / 2 / 2; }
-        .herotext p { display: none; grid-area: 1 / 2 / 2 / 3; 
-    }
+    
 }
 
-.respect, .care {
+.care {
     /* background: linear-gradient(#3fdaf5, #d9f3f800); */
     position: relative;
     top: -27px;
@@ -183,7 +186,7 @@ body, html {
     height: fit-content;
 }
 
-.respect h1, .care h1 {
+.care h1 {
     position: relative;
     top: 50px;
     left: 10%;
@@ -192,7 +195,7 @@ body, html {
     width: fit-content;
 }
 
-.respect h3, .care h3 {
+.care h3 {
     position: relative;
     top: 10px;
     left: 10%;
@@ -250,11 +253,8 @@ body, html {
 
 
 @media screen and (min-width: 600px) {
-    .respect h1, .care h1 {
+    .care h1 {
         font-size: 2.5em;
-    }
-    .respect h3 {
-        left: 25%;
     }
 
     .care h1 {
