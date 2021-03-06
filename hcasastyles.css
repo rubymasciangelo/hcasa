@@ -94,9 +94,9 @@ body, html {
 
   .heroimg {
     /* background-image: linear-gradient(#123d44e0, #103a41e8), url("img/kalopatch1.jpg"); */
-    /* background-image: linear-gradient(#ffffff00, #ffffffc7), url("img/kalopatch1.jpg"); */
+    background-image: linear-gradient(#ffffff00, rgb(250, 247, 242)), url("img/kalopatch1.jpg");
     /* background-image: linear-gradient(#62e1f5c9, #3fdaf5c4), url("img/kalopatch1.jpg"); */
-    background-image: url("img/kalopatch1.jpg");
+    /* background-image: url("img/kalopatch1.jpg"); */
 
     height: 70%;
     background-position: center;
@@ -112,7 +112,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(#ffffff4f, #ffffffe1);
+    /* background: linear-gradient(#ffffff4f, #ffffffe1); */
     padding: 10px;
     border-radius: 1%;
   }
