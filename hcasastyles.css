@@ -18,6 +18,13 @@ body, html {
     background-color: #309eaf;
 } */
 
+.navlogo {
+    width: auto;
+    height: 51px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .navbar a {
   float: right;
   display: block;
@@ -129,6 +136,13 @@ body, html {
 }
 
 @media screen and (min-width: 600px) {
+    .navlogo {
+        width: 45px;
+        height: auto;
+        padding-top: 6px;
+        padding-left: 10px;
+    }
+
     .logobox img {
         width: 25vw;
     }
