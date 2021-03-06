@@ -10,8 +10,7 @@ body, html {
 .navbar {
   overflow: hidden;
   /* background-color: #258999; */
-  background-color: #309eaf;
-
+  background-color: rgb(217, 241, 180);
 }
 
 /* .aboutnav {
@@ -21,14 +20,14 @@ body, html {
 .navlogo {
     width: auto;
     height: 51px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
 .navbar a {
   float: right;
   display: block;
-  color:#044049;
+  color:#258999;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
