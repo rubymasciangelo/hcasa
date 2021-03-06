@@ -44,7 +44,7 @@ body, html {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .navbar a {display: none;}
   .navbar a.icon {
     float: right;
@@ -52,7 +52,7 @@ body, html {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
     position: absolute;
@@ -154,7 +154,7 @@ body, html {
     margin: 0px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .navlogo {
         width: 45px;
         height: auto;
@@ -162,19 +162,37 @@ body, html {
         padding-left: 10px;
     }
 
+    .heroimg {
+        /* background-image: linear-gradient(#123d44e0, #103a41e8), url("img/kalopatch1.jpg"); */
+        /* background-image: linear-gradient(#ffffff00, rgb(250, 247, 242)), url("img/kalopatch1.jpg"); */
+        /* background-image: linear-gradient(#62e1f5c9, #3fdaf5c4), url("img/kalopatch1.jpg"); */
+        /* background-image: url("img/kalopatch1.jpg"); */
+        height: 80%;
+      }
 
     .herotext {
-        text-align: left;
-        top: 50%;
-        left: 45%;
-      }
-      
-    .herotext {
-        grid-template-columns: 25vw 45vw;
-        grid-template-rows: 1fr;
-        grid-column-gap: 10%;
-        }
-    
+        top: 45%;
+    }
+
+    .pbox {
+        padding-top: 3%;
+        font-size: 120%;
+        text-align: right;
+    }
+
+
+
+    .respect h1 {
+        font-size: 3.6em;
+    }
+    .respect h3 {
+        font-size: 200%;
+        width: fit-content;
+        padding-left: 20vw;
+    }
+    .heroaloha {
+        font-size: 150%;
+    }
 }
 
 .care {
@@ -268,7 +286,7 @@ body, html {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .care h1 {
         font-size: 2.5em;
     }
@@ -360,7 +378,7 @@ body, html {
             .raloha4 { grid-area: 4 / 1 / 5 / 2; }
             .raloha5 { grid-area: 5 / 1 / 6 / 2; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .paubox {
         display: block;
         position: absolute;
