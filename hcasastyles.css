@@ -439,6 +439,7 @@ body, html {
         grid-template-rows: 1fr;
         grid-column-gap: 50px;
         grid-row-gap: 0px;
+        padding-bottom: 50px;
         }
         
         .suplink { grid-area: 1 / 1 / 2 / 2; }
