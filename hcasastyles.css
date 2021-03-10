@@ -388,6 +388,10 @@ body, html {
     display: none;
 }
 
+.ag {
+    padding: 50px 0px;
+}
+
 @media screen and (min-width: 650px) {
     /* .paubox {
         display: block;
@@ -428,6 +432,26 @@ body, html {
         width: 60vw;
         margin-left: 5vw;
     }
+
+    .suporgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        }
+        
+        .suplink { grid-area: 1 / 1 / 2 / 2; }
+        .ag { grid-area: 1 / 2 / 2 / 3; 
+        padding: 0px;}
+}
+
+.about h2 {
+    font-size: 20px;
+}
+
+.miss {
+    padding-top: 20px;
 }
 
 @media screen and (min-width: 840px) {
@@ -457,7 +481,7 @@ body, html {
 .pauboxsw {
     padding: 20px 15vw;
 }
-
+ 
 .pausw {
     width: 35vw;
 }
